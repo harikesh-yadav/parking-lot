@@ -9,7 +9,7 @@ type ParkingLot struct {
 var instance *ParkingLot
 var once sync.Once
 
-func GetParkingLotInstane() *ParkingLot {
+func GetParkingLotInstance() *ParkingLot {
 	once.Do(func() {
 		instance = &ParkingLot{
 			Levels: make([]*Level, 0),

@@ -1,5 +1,5 @@
 package parkinglot
 
-func NewMoterCycle(licencePlate string) Vehicle {
+func NewMotorcycle(licencePlate string) Vehicle {
 	return &BaseVehicle{LicencePlate: licencePlate, Type: MOTORCYCLE}
 }
